@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 def home(request):
-    return render(request, "shop/home.html", {"title": "Головна"})
+    return render(request, "shop/home.html", {"title": "Магазин одягу"})
 
 def men(request):
     return render(request, "shop/men.html", {"title": "Чоловічий одяг"})
