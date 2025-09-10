@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>Головна сторінка магазину</h1>
+    <ul>
+        <li><a href="{% url 'men' %}">Чоловічий одяг</a></li>
+        <li><a href="{% url 'women' %}">Жіночий одяг</a></li>
+        <li><a href="{% url 'kids' %}">Дитячий одяг</a></li>
+        <li><a href="{% url 'about' %}">Про магазин</a></li>
+    </ul>
+</body>
+</html>
